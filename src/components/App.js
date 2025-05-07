@@ -12,6 +12,8 @@ function App() {
       <Home username={user.name} city={user.city} color={user.color} />
       <About bio={user.bio} links={user.links} />
       <ProjectList projects={user.projects} />
+
+      
     </div>
   );
 }
